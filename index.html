@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas_CV - Sulthan</title>
+    <style>
+        body {
+            background:linear-gradient(135deg, #0c0090 60%, #959595 100%);
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        .cv-container {
+            background: white;
+            padding: 32px 40px;
+            border-radius: 15px;
+            max-width: 600px;
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Hapus .outer-content CSS karena konten dipindahkan ke dalam .cv-container */
+
+        .header-gambar {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+        .editfoto {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-right: 20px;
+            object-fit: cover;
+        }
+        .header-profile h1 {
+            margin: 10px 0 5px 0;
+            font-size: 24px;
+            color :rgb(22, 48, 72);
+        }
+        .pendidikan {
+            margin-bottom: 24px;
+        }
+        .pengalaman{
+            margin-bottom: 30px; 
+        }
+        .keahlian { 
+            margin-top: 15px; 
+        }
+        .judul {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color :rgb(94, 97, 255);
+        }
+        ul{
+            padding-left: 20px;
+            list-style-type: disc; /* Pastikan bullet point aktif */
+        }
+        
+        /* CSS untuk Pelatihan dan Sertifikasi (Di dalam kotak putih) */
+        .pelatihan-sertifikasi { 
+            margin-top: 25px; 
+        }
+
+        .pelatihan-sertifikasi ul {
+            padding-left: 20px; 
+        }
+
+        .pelatihan-sertifikasi li {
+            color: black; 
+            margin-bottom: 5px;
+            list-style-type: disc; /* Pastikan bullet point aktif */
+        }
+        /* End of Pelatihan CSS */
+
+        .pengalaman-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .organisasi {
+            background: rgb(249, 249, 250);
+            color: rgb(10, 0, 0); 
+            padding: 10px 6px;
+            border-radius: 8px;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="cv-container">
+        <div class="header-gambar">
+            <img src="pus.jpg" alt="fotoprofile" class="editfoto">
+             <div class="header-profile">
+                 <h1>Sulthan Aqilah Putra Ananda</h1>
+                 <p>Email : sulthanputra883@gmail.com</p>
+                 <p>Telepon : 0895391849119</p>
+             </div>
+        </div>
+    
+        <div class="tentangdiri">
+            <div class="judul">Tentang Diri</div>
+        <p>Saya adalah Mahasiswa Sistem Informasi di Telkom University dengan minat kuat pada integrasi teknologi dan proses bisnis. Berfokus pada pembelajaran praktis, saya memiliki ambisi besar untuk mengimplementasikan solusi berbasis teknologi guna mencapai efisiensi dan dampak nyata di dunia profesional.</p>
+        </div>  
+        
+        <div class="pendidikan">
+            <div class="judul">Pendidikan</div>
+            <ul>
+                <li>SMK Telkom Malang (2021-2024)</li>
+                <li>Telkom University (2024-Sekarang)</li>
+            </ul>
+        </div>
+
+        <div class="pengalaman">
+            <div class="judul">Pengalaman Panitia/Magang</div>
+            <div class="pengalaman-list">
+                <span class="organisasi">Polresta Kota Malang</span>
+                <span class="organisasi">Panitia Event Bulan Bahasa 2022</span>
+                <span class="organisasi">Panitia Event Lomba Paskibraka 2023</span>
+            </div>
+        </div>  
+
+        <div class="keahlian"> 
+            <div class="judul">Keahlian</div>
+            <ul>
+                <li>Microsoft Office (Word, Excel, PowerPoint)</li>
+                <li>Bahasa Pemrograman Dasar (HTML, CSS, Python)</li>
+                <li>Manajemen Waktu dan Organisasi</li>
+                <li>Sistem Operasi (Debian,Linux,Windows)</li>
+                <li>Jaringan Komputer (Crimping,Mikrotik,Fiber Optic)</li>
+            </ul>
+        </div>
+        
+        <div class="pelatihan-sertifikasi"> 
+            <div class="judul">Pelatihan dan Sertifikasi</div>
+            <ul>
+                <li> Sertifikasi TOEIC 2023</li>
+                <li> Sertifikasi Cisco Cyber Security 2023</li>
+                <li> Sertifikasi Certiport Cyber Security 2023 </li>
+                <li> Sertifikasi TOEFL 2024 </li>
+                <li> Sertifikasi CCNAv7 : Switching, Routing, and Wireless Essentials 2024</li>
+                <li> Sertifikasi CCNAv7 : Introduction to Networks 2024 </li>
+            </ul>
+        </div>
+        
+    </div>  </body>
+</html>
